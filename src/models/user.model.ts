@@ -35,7 +35,6 @@ const userSchema = new Schema<IUser>(
     lastSeen: {
       type: Date,
       default: undefined,
-      required: true,
     },
   },
   {

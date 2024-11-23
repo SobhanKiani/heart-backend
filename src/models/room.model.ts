@@ -8,7 +8,7 @@ export interface CreateRoomAttrs {
 export interface IRoom extends Document {
   name: string;
   users: [Schema.Types.ObjectId];
-  containsUser: (userId: Schema.Types.ObjectId) => boolean;
+  containsUser: (userId: Schema.Types.ObjectId) => any
 }
 
 export interface RoomModel extends Model<IRoom> {

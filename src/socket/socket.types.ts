@@ -40,7 +40,7 @@ export enum ServerToClientMessages {
   ERROR = "error",
 }
 
-export enum ClientToServerMessages {
+export enum  ClientToServerMessages {
   EMOJI = "emoji",
   JOIN_ROOM = "join_room",
   IS_ONLINE = "is_online",
